@@ -1,0 +1,5 @@
+<ul>
+  {{#each measurements as |measurement|}}
+    <li>{{moment-from-now measurement.timestamp}} - {{measurement.ounces}}</li>
+  {{/each}}
+</ul>
